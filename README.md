@@ -2,13 +2,15 @@
 
 # Synopsys
 
-This is a simple project that uses a machine learning approach in order to find an optimum proximity location for covi19 vaccination centers based on a population address data set.
+This is a simple project that uses a machine learning approach in order to find an optimum proximity locations for covi19 vaccination centers based on a population address data set.
 
 The algorithm used is k-means (unsupervised clustering algorithm).
 
 The population has been generated using Synthea ([https://synthetichealth.github.io/synthea/](https://synthetichealth.github.io/synthea/)) a synthetic patient generator.
 
 The implementation is done using AWS services.
+
+All the resouces (including training data and model artifacts) are temporarely publicly available @ s3://synthetic-population-analysis-01.
 
 # Scenario/Goal
 
